@@ -67,14 +67,19 @@ class ViewController: UIViewController {
     }
     
     func checkAnswer() {
-        let correctAnswer = allQuestions.list[questionNumber].answer
-        
-        if pickedAnswer == correctAnswer {
-            ProgressHUD.showSuccess("Correct!")
-            score += 1
-        } else {
-            ProgressHUD.showError("Wrong!")
+        if questionNumber < 13 {
+            
+            let correctAnswer = allQuestions.list[questionNumber].answer
+            
+            if pickedAnswer == correctAnswer {
+                ProgressHUD.showSuccess("Correct!")
+                score += 1
+            } else {
+                ProgressHUD.showError("Wrong!")
+            }
+            
         }
+        
     }
     
     func startOver() {
