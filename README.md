@@ -7,6 +7,8 @@ Using Model-View-Controller (MVC) Design Pattern to make a quiz app.
 * Auto Layout
 * Model-View-Controller (MVC) Design Pattern
 * CocoaPods(ProgressHUD)
+* UIAlertController
+* Objective-C
 
 
 ## Finished App
