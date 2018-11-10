@@ -1,10 +1,15 @@
 # Quizzler
+Using Model-View-Controller (MVC) Design Pattern to make a quiz app.
+
+- Simple quiz app exercising MVC design pattern.
+
+### Skills
+* Auto Layout
+* Model-View-Controller (MVC) Design Pattern
+* CocoaPods(ProgressHUD)
 
 
 ## Finished App
-![Finished App](https://github.com/londonappbrewery/Images/blob/master/Quizzler.gif)
-
-
-
+<img src="quizzler.gif" width="250">
 
 Copyright © Hector Mendoza
